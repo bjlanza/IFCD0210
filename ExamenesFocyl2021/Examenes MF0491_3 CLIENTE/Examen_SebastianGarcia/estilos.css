@@ -1,0 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 15, 15);
+    font-size: 17px;
+}
+
+
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0000008f;
+}
+
+.claro{
+    background-color: #dfe3ee;
+}
+
+footer{
+    padding: 12px;
+    margin: 14em;
+    border-color: hsl(220, 26%, 66%);
+}
+
+li{
+    color: hsla(203, 92%, 75%, 0.623);
+    font-size: 19px;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #1327dd;
+    text-decoration: underline;
+  }
+  
+ 
+  a:hover {
+    color: rgb(156, 27, 216);
+    text-decoration: wavy;
+  }
+ 
+  a:active {
+    color: hsl(39, 100%, 50%);
+    text-decoration: solid;
+  }

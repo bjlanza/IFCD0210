@@ -1,0 +1,197 @@
+/* * { */
+/* font-family: "Courier New", Courier, monospace; */
+/* font-size: 15px; */
+/* cuando activo el color no coge el footer */
+/* color: rgb(6, 10, 4); */
+/* padding: 10px; */
+/* } */
+
+/* p{
+  font: 1em sans-serif;
+} */
+
+/* asignado principalmente el fondo del body */
+
+.claro {
+  background-color: rgb(240, 235, 228);
+}
+
+#footer {
+  padding: 12px;
+  /* margin: 14em; */
+  /* border-width: 10px; */
+  background: #aaa;
+  /* margin: 20px; */
+  color: hsl(232, 69%, 6%);
+}
+
+/*--------------- color de los links ---------*/
+
+#navbar {
+  background-color: rgb(206, 233, 196);
+}
+a:link {
+  color: indigo; /*- color RGB--*/
+  text-decoration: none;
+}
+a:visited {
+  color: hsl(348, 83%, 47%); /*- color HSL--*/
+}
+a:hover {
+  color: #f133e7; /*- color Hexsdecimal--*/
+}
+a:active {
+  color: gold;
+}
+.enlace2 {
+  text-decoration: underline;
+}
+
+/* --------- pelicula filmaffinity ----------------------------------- */
+h3 {
+  background-color: rgb(116, 95, 95);
+  color: rgb(248, 245, 56);
+}
+.film {
+  background-color: rgb(219, 207, 207);
+}
+
+/* ---- stilos de la tabla.  ----------------- */
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-46ru {
+  background-color: #96fffb;
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-x5oc {
+  background-color: #fe996b;
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-bzlp {
+  background-color: #c0c0c0;
+  border-color: inherit;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-c3ow {
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+.tg .tg-weqb {
+  background-color: #fe996b;
+  border-color: inherit;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  vertical-align: top;
+}
+.tg .tg-llyw {
+  background-color: #c0c0c0;
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-przl {
+  background-color: #c0c0c0;
+  border-color: inherit;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  vertical-align: top;
+}
+.tg .tg-5fld {
+  background-color: #96fffb;
+  border-color: inherit;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-7dw8 {
+  background-color: #38fff8;
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+/* ------------fin tabla---------------- */
+/*-------------------- Formulario-------------------- */
+
+.datospersonales {
+  width: 350px;
+  margin: 20px;
+  background-color: rgb(238, 144, 68);
+}
+.datospersonales1 {
+  width: 350px;
+  margin: 20px;
+  background-color: rgb(180, 230, 88);
+}
+
+form {
+  background-color: #d1d396;
+  width: 800px;
+}
+/*---------------- Lista ordenada----------- */
+
+.listaOrd {
+  background-color: #d1d396;
+  width: 800px;
+}
+/* Delegacion de eventos ------------------------*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* border: 1px solid black; */
+
+  grid-gap: 10px;
+  width: 300px;
+}
+
+.gallery__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.red {
+  background: red;
+}
+.colorpre {
+  background-color: rgb(235, 235, 35);
+  color: rgb(148, 12, 12);
+  width: 550px;
+}

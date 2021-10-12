@@ -1,0 +1,49 @@
+Imagenes
+https://imagessl4.casadellibro.com/a/l/t7/94/9788478887194.jpg
+https://static.diariofemenino.com/uploads/psicologia/214120-sonar-montana.jpg
+
+Video
+https://vod-progressive.akamaized.net/exp=1621411331~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4327%2F20%2F521635037%2F2436722621.mp4~hmac=424d7cbdd6ebcc2d69ace38b6e4519708651c4f486f08d22057fefc451484db8/vimeo-prod-skyfire-std-us/01/4327/20/521635037/2436722621.mp4?filename=Lake+-+67201.mp4
+
+Iframe
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h45jA0N6Lic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Poema:
+Con diez cañones por banda,
+viento en popa, á toda vela,
+no corta el mar, sino vuela,
+mi velero bergantín:
+Bajel pirata que llaman,
+por su bravura, el Temido,
+en todo mar conocido,
+del uno al otro confin.
+
+La luna en el mar riela,
+en la lona gime el viento,
+y alza en blando movimiento
+olas de plata y azul;
+y ve el capitán pirata,
+cantando alegre en la popa,
+Asia á un lado, al otro Europa,
+y allá a su frente Stambul[1]:
+
+«Navega, velero mio,
+sin temor,
+que ni enemigo navío
+ni tormenta, ni bonanza
+tu rumbo á torcer alcanza,
+ni á sujetar tu valor.
+
+»Veinte presas
+hemos hecho
+a despecho
+del inglés,
+y han rendido
+sus pendones
+cien naciones
+a mis pies.»
+
+»Que es mi barco mi tesoro,
+Que es mi Dios la libertad,
+Mi ley, la fuerza y el viento,
+Mi única patria, la mar.

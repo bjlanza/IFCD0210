@@ -1,0 +1,21 @@
+module.exports = (app) => {
+  const articles = require("../controllers/alumno.controller.js");
+
+  // Crear un nuevo artículo
+  app.post("/alumno", alumno.create);
+
+  // Obtener todos los artículos
+  app.get("/alumno", alumno.findAll);
+
+  // Obtener un solo artículo con articleId
+  app.get("/alumno/:alumnoId", alumno.findOne);
+
+  // Actualizar un articulo con articleID
+  app.put("/alumno/:alumnoId", alumno.update);
+
+  // Borrar un articulo con articleID
+  app.delete("/alumno/:alumnoId", alumno.delete);
+
+  // Borrar Todos los articulos
+  app.delete("/alumno", alumno.deleteAll);
+};

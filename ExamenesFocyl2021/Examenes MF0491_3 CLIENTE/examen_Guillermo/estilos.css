@@ -1,0 +1,82 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:darkslategray;
+  font-size: 24px;
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(75, 0, 130);
+}
+
+.claro{
+  background-color: honeydew;
+}
+
+footer{
+
+  padding: 12px;
+  margin: 14em;
+  border-style: dotted;
+  border-color: black;
+}
+
+ol li {
+
+  color: rgba(8, 8, 8, 0.4);
+  font-size: 26px;
+}
+
+/* estados enlaces ejercicio 5 */
+
+a:link{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+a:visited{
+    
+    color:rgba(0, 0, 255);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: hsl(350, 79%, 77%);
+    font-size: 120%;
+}
+
+a:active {
+    color: #ff4500;
+    text-decoration: none;
+}
+ 
+/*tabla*/
+
+table.estilo_guillermo {
+  border: 2px solid #47864D;
+  background-color: honeydew;
+  width: 75%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.estilo_guillermo td, table.estilo_guillermo th {
+  border: 1px solid #AAAAAA;
+  padding: 10px 10px;
+}
+table.estilo_guillermo tbody td {
+  font-size: 13px;
+}
+table.estilo_guillermo tr:nth-child(even) {
+  background: #FFFFCC;
+}
+table.estilo_guillermo thead {
+  background: #47864D;
+  border-bottom: 0px solid #444444;
+}
+table.estilo_guillermo thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: honeydew;
+  text-align: center;
+}

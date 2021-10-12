@@ -1,0 +1,46 @@
+*{
+    font: serif;
+    color: DarkSlateGrey;
+    font-size: 20px;
+  }
+
+  p{
+      font: Helvetica;
+      color: #00044D;
+  }
+
+  .claro{
+      background-color: #FFFFB6;
+  }
+
+  footer {
+      padding: 12px;
+      margin: 14em;
+      border-color: hsla(55, 100%, 18%, 1);
+  }
+
+  li {
+      color:hsla(181, 100%, 10%, 0.4);
+      font-size: 22px;
+  }
+
+  a {
+      color: rgb(25, 77, 112);
+      text-decoration: none;
+  }
+
+  a:hover { 
+      color: hsl(360, 67%, 44%);
+      text-decoration: underline;
+    }
+
+  a:visited {
+      color:#FAA700;
+      text-decoration: none;
+  }
+
+  a:active {
+      color:orchid;
+      text-decoration: underline;
+  }
+

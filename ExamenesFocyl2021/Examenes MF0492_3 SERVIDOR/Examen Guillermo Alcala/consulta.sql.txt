@@ -1,0 +1,29 @@
+
+consulta1
+
+SELECT * FROM camara;
+
+consulta 2
+
+SELECT nombre, marca, pvp AS precio from articulo;
+
+consulta 3
+
+SELECT email, nombre, apellidos FROM usuario ORDER BY apellidos ASC, nombre DESC;
+
+consulta 4
+
+SELECT distinct panel from tv where pantalla <= 21;
+
+consulta 5
+
+SELECT codp, nombre from provincia where nombre not in ("Valladolid", "Burgos", "Madrid", "Cuenca");
+
+consulta 6 
+
+SELECT codigo FROM provincia where nombre = "León";
+
+
+
+
+

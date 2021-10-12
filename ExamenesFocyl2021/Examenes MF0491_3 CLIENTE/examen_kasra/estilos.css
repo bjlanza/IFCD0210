@@ -1,0 +1,42 @@
+* {
+  font-family: "Newsreader", serif;
+  color: darkred;
+  font-size: 30px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: rgb(20, 50, 100);
+}
+.claro {
+  background-color: lightblue;
+}
+footer {
+  padding: 12px;
+  margin: 14em;
+  border: 1px solid;
+  border-color: hsla(11, 100%, 50%, 1);
+  width: 100%;
+  position: relative;
+  left: -427px;
+}
+li {
+  color: darkred;
+  opacity: 0.4;
+  font-size: 32px;
+  list-style: none;
+}
+a:link {
+  color: rgb(0, 132, 255);
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  text-decoration: underline dashed;
+}
+a:active {
+  color: hsl(300, 76%, 72%);
+  text-decoration: underline wavy;
+}
+a:visited {
+  color: #d2691e;
+}

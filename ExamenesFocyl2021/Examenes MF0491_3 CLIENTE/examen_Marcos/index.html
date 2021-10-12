@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Examen Web de Marcos Morán" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Marcos Morán" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Examen Web</title>
+  </head>
+  <body class = "claro">
+    <div id="navbar">
+      <ul>
+        <li>
+          <a
+            href="https://empleo.jcyl.es/web/es/empleo-castilla-leon.html"
+            target="_blank"
+            >Ecyl</a
+          >
+        </li>
+        <li>
+          <a href="mailto:marcosmoranc@gmail.com" target="_blank"
+            >Enviame un correo electronico</a
+          >
+        </li>
+        <li>
+          <a href="#" target="_blank">Respuestas Examen</a>
+        </li>
+        <li>
+          <a href="#footer" target="_blank">Ir al final de la web</a>
+        </li>
+      </ul>
+    </div>
+
+    <h1>Examen - Programacion web en el entorno cliente</h1>
+    <h2>Marcos Morán Cañón</h2>
+
+    <div id="ejercicio6">
+      <pre>
+        ¿Qué es poesía? dices mientras clavas
+        En mi pupila tu pupila azul;
+        ¿Qué es poesía? ¿Y tú me lo preguntas?
+        Poesía... eres tú.
+      </pre>
+      <p>Abreviatura <abbr title="Telefono">Tel.</abbr>, Cita:</p>
+      <q
+        >Un poco más de persistencia, un poco más de esfuerzo, y lo que parecía
+        irremediablemente un fracaso puede convertirse en un éxito glorioso
+        (Elbert Hubbard)
+      </q>
+      <p>
+        , Acronimo: <abbr title="Organización mundial de la salud">OMS</abbr
+        ><!--En esta sentencia se hace uso de la etiqueta abbr en lugar de acronym, ya que esta ultima ya no esta soportada por HTML5-->
+      </p>
+
+      <article>
+        <h2>Mozilla Firefox</h2>
+        <p>
+          Mozilla Firefox es un navegador de codigo libre creado por Mozilla.
+          Firefox ha sido el segundo navegador mas popular desde enero de 2018.
+        </p>
+      </article>
+
+      <p>
+        Fragmento de codigo:
+        <code>a:link { color: indigo; text-decoration: none; }</code>
+      </p>
+    </div>
+    <div id="multimedia" class="multimedia">
+      <h1>Elementos Multimedia</h1>
+      <figure>
+        <img
+          src="https://i.redd.it/9rmdcheg8d151.jpg"
+          alt="Imagen Interna"
+          id="imgExt"
+        />
+      </figure>
+      <img src="img/imagen.jpg" alt="Imagen Externa" id="imgInt" /><p>(^Literalmente yo acabando el examen^)</p><br />
+      <video controls>
+        <source
+          src="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <br />
+
+      <audio
+        src="https://www.bensound.com/bensound-music/bensound-creativeminds.mp3"
+        controls
+      ></audio
+      ><br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.5677077359622!2d-5.577753336198229!3d42.596764853318575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd379a94072ee2d7%3A0x2694f3f42156a51!2sPlaza%20de%20Guzm%C3%A1n%20El%20Bueno!5e0!3m2!1ses!2ses!4v1621423696914!5m2!1ses!2ses"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <br />
+    </div>
+
+    <div id="tabla">
+      <h1>Tabla de contenidos</h1>
+      <table>
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+        <tr>
+          <td>Foo</td>
+          <td rowspan="2">Foo</td>
+          <td>Foo</td>
+          <td>Foo</td>
+          <td>Foo</td>
+        </tr>
+        <tr>
+          <td>Bar</td>
+          <td>Bar</td>
+          <td>Bar</td>
+          <td rowspan="2">Bar</td>
+        </tr>
+        <tr>
+          <td>Foo</td>
+          <td>Foo</td>
+          <td>Foo</td>
+          <td>Foo</td>
+        </tr>
+        <tr>
+          <td colspan="5">Bar</td>
+        </tr>
+        <tr>
+          <td>Foo</td>
+          <td>Foo</td>
+          <td>Foo</td>
+          <td>Foo</td>
+          <td>Foo</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="formulario">
+      <h1>Formulario</h1>
+      <fieldset>
+          <legend>Datos Personales</legend>
+
+      <label for="camp1" required>Nombre</label>
+      <input type="text" id="camp1" autofocus /><br />
+
+
+      <label for="camp2">Apellidos</label>
+      <input type="text" id="camp2" value="Valor por defecto" /><br />
+
+
+      <label for="telf">Campo para numeros de telefono</label>
+      <input type="tel" id="telf" /><br />
+
+
+      <label for="ema">Campo para Email</label>
+      <input type="email" name="ema" id="ema"></input><br />
+
+
+      
+      
+    </fieldset>
+
+    <label for="txa">Descripcion</label>
+    <textarea name="txa" id="txa" cols="30" rows="10"></textarea><br />
+    
+      <fieldset>
+          <legend>RadioButtons y Checboxes</legend>
+          <label for="rad1">1</label>
+          <input
+            type="radio"
+            value="1"
+            name="numeros"
+            id="rad1"
+            checked
+          /><br />
+          <label for="rad2">2</label>
+          <input type="radio" value="2" name="numeros" id="rad2" /><br />
+          <label for="rad3">3</label>
+          <input type="radio" value="3" name="numeros" id="rad3" /><br />
+          <label for="cb1">1</label>
+          <input type="checkbox" value="1" id="cb1" /><br />
+          <label for="cb2">2</label>
+          <input type="checkbox" value="2" id="cb2" /><br />
+          <label for="cb3">3</label>
+          <input type="checkbox" value="3" id="cb3" /><br />
+        </fieldset>
+
+        <input type="submit" id="submit" />
+        <br />
+        <br />
+
+    </div>
+
+    <div id="javascript">
+      <h1>Ejercicios de Javascript</h1>
+      <div id="eventos">
+        <button id="botEvento">
+          Clic aqui para Ejecutar el Ejercicio 2 de JavaScript
+        </button>
+      </div>
+    </div>
+
+    <div id="footer">
+      <address>
+        <strong>C/</strong><em> Calle las Campanillas, </em><strong>Nº</strong
+        ><em> 26,</em> <strong>CP:</strong><em> 24008 León</em>
+      </address>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

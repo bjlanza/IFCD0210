@@ -1,0 +1,58 @@
+/*Estilogeneral*/
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: black;
+}
+
+/*Estilos de elementos*/
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(150, 16, 16);
+}
+
+.claro {
+  background-color: rgb(182, 181, 179);
+}
+
+#footer {
+  padding: 12px;
+  margin: 14em;
+  border-color: rgb(156, 236, 149);
+}
+
+li ol {
+  font-size: 22px;
+  color: rgba(9, 9, 117, 0.4);
+}
+
+/*Estilos de enlaces*/
+
+a:link {
+  color: rgb(9, 9, 202);
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: hsl(288, 48, 26);
+  text-decoration: overline;
+}
+
+a:active {
+  color: #ff8000;
+  text-decoration-line: initial;
+}
+
+.img {
+  width: 400px;
+}
+
+.video {
+  width: 480px;
+}

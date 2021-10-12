@@ -1,0 +1,34 @@
+version: "3.1"
+
+services:
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD:
+        MYSQL_USER: FOCYL
+        MYSQO_PASSWORD: MYSQL_DATABASE:FOCYL
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 4408
+          wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    volumes:
+      - wordpress_data:/var/www/html
+    ports:
+      - "8000:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:4408
+      WORDPRESS_DB_USER: focyl
+      WORDPRESS_DB_PASSWORD: 
+      WORDPRESS_DB_NAME: focyl
+volumes:
+  db_data: {}
+  wordpress_data: {}

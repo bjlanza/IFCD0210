@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Examen Web">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Guillermo Alcala">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Primer Módulo: Guillermo </title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body class="claro">
+  <h1> Examen - Programación Web </h1>
+  <h2> Guillermo Alcalá </h2>
+    
+  <div id="navbar">
+        <nav>
+            <ul class="lista">
+              
+              <li class="item-list"><a href="https://empleo.jcyl.es/" target="_blank">Ecyl</a></li>
+              <li class="item-list"><a href="mailto:guillermo.alccar@gmail.com">Enviar e-mail</a></li>
+              <li class="item-list"><a href="#">Respuestas examen</a></li>
+              <li class="item-list"><a href="#pie">Pié de página</a></li>
+        
+                
+            </ul>
+        </nav>
+    </div>
+
+
+<footer id="pie">
+  <address>
+    <strong>Dirección:</strong> Calle de las Campanillas 26 <br> <em>24008 León, Spain</em> 
+    <strong> Teléfono </strong> <em>+34 987 87 64 34</em> 
+  </address>
+</footer>
+
+<table class=estilo_guillermo>
+  <thead>
+    <tr>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miercoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>xxx</td>
+      <td rowspan="2">xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+    </tr>
+    <tr>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td rowspan="2">xxx</td>
+    </tr>
+    <tr>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+    </tr>
+    <tr>
+      <td colspan="5">xxx</td>
+    </tr>
+    <tr>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>xxx</td>
+    </tr>
+  </tbody>
+  </table>
+
+    <div id="form">
+      <form action="post">
+        <fieldset>
+          <legend>Datos Personales</legend>
+
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre"  value="Guillermo" /><br />
+          
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="apellido" required /><br />
+
+          <label for="tfno">Teléfono:</label>
+          <input type="tel" name="tfno" id="tfno" /><br />
+
+          <label for="e-mail">E-mail:</label>
+          <input type="email" name="e-mail" id="e-mail" />
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros datos </legend>
+            
+          <label for="areatexto">Ésto es un área de texto:</label><br>
+          <textarea  name="areatexto" id="areatexto" cols="30" rows="10" autofocus></textarea
+          ><br />
+
+          <p>Sexo: </p>
+          <input type="radio" id="masculino" name="genero" value="masculino">
+          <label for="masculino">Hombre</label><br>
+
+          <input type="radio" id="femenino" name="genero" value="femenino">
+          <label for="femenino">Mujer</label><br>
+         
+          <input type="radio" id="otro" name="genero" value="nc">
+          <label for="otro"> NS / NC</label><br>
+
+          
+
+        </fieldset>
+        
+        <input type="submit" value="Enviar" /><br />
+      </form>
+    </div>
+
+
+<div id="multimedia">
+
+  <img src="https://estaticos.muyinteresante.es/uploads/images/gallery/594a1ced5bafe85dfd3c9869/gato-romano-redes.jpg" 
+  alt="un gatito" width="400"><br>
+
+  <img src="/img/leon.jpg" alt="Un león" width="400"><br>
+  <video  width="480"  src="https://vod-progressive.akamaized.net/exp=1621411292~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F152%2F20%2F500762371%2F2280354878.mp4~hmac=9481d69b4d9208b8ec190733f507cfdd8ccf6536c1995523db6fd898b36de843/vimeo-prod-skyfire-std-us/01/152/20/500762371/2280354878.mp4?filename=Mountains+-+61818.mp4"  controls></video><br>
+  
+  <audio controls>
+    <source src="https://www.bensound.com/bensound-music/bensound-creativeminds.mp3">
+  </audio><br>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XPw8E5NSrIE"></iframe>
+</div>
+
+
+    <div id="javascript">
+
+      <ol id="ejercicio4"></ol>
+
+
+      <div id="eventos">
+         <button id="miBoton">Compara números</button>
+      </div>
+     
+      <p id="ejercicioClases"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

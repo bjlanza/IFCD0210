@@ -1,0 +1,30 @@
+DROP DATABASE IF EXISTS  cursoweb;
+CREATE database cursoweb;
+USE database cursoweb;
+
+CREATE TABLE alumno(
+ idAlumno INT NOT NULL,
+ nombre VARCHAR(45),
+ apellidos VARCHAR(45),
+ fechaNac DATE,
+ email VARCHAR(45),
+ trabaja TINYINT,
+ CONSTRAINT pro_ida_PK PRIMARY KEY(idAlumno)
+);
+
+CREATE TABLE Curso(
+idclase INT NOT NULL,
+idalumno INT not null,
+idasignatura INT not null,
+nombre VARCHAR(45),
+CONSTRAINT cur_idc_PK PRIMARY KEY(idClase));
+
+CREATE TABLE asignatura (
+idasignatura INT not null,
+nombre VARCHAR(45),
+CONSTRAINT asi_ida_PK PRIMARY KEY(idasignatura));
+
+ALTER TABLE Curso ADD FOREIGN KEY (idasignatura) REFERENCES asignatura(idasignatura);
+
+ALTER TABLE Curso ADD FOREIGN KEY (idalumno) REFERENCES alumno(idalumno);
+

@@ -1,0 +1,113 @@
+/* Hoja de estilos creada para cambiar la presentación
+de los datos en el documento index.html */
+* {
+  color: rgb(15, 14, 14);
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  /* background-color: rgb(225, 243, 243); */
+}
+
+p {
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.claro,
+body {
+  background-color: rgb(213, 224, 224);
+}
+
+#footer {
+  padding: 12px;
+  margin: 14em;
+  border-color: hsl(280, 60, 20);
+}
+
+ol > li {
+  font-size: 20px;
+  color: #120614
+  opacity: 0.4;
+}
+
+/* Estilos relativos a cada uno de los enlaces.
+El orden seguido para la correcta aplicación de los estilos es:
+1º link, 2º visited, 3º hover y 4º active */
+a:link {
+  color:mediumblue;
+  text-decoration: none;
+}
+a:visited {
+  color: #f00;
+  text-decoration: inherit;
+}
+a:hover {
+  color: rgb(233, 74, 180);
+  text-decoration: underline;
+}
+a:active {
+  color: hsl(60, 100, 50);
+  font-size: 100%;
+  text-decoration: underline wavy hsl(60, 100, 50);
+}
+
+table.estilo_patricio {
+  font-size: 15px;
+  border: 3px solid #1c6ea4;
+  background-color: #f1b383;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.estilo_patricio td,
+table.estilo_patricio th {
+  border: 1px solid #aa989f;
+  padding: 3px 2px;
+}
+table.estilo_patricio tbody td {
+  font-size: 16px;
+  color: #1c1115;
+}
+table.estilo_patricio tr:nth-child(even) {
+  background: #d0e4f5;
+}
+table.estilo_patricio thead {
+  background: #f2c5c2;
+  background: -moz-linear-gradient(top, #f5d3d1 0%, #f3cac8 66%, #f2c5c2 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #f5d3d1 0%,
+    #f3cac8 66%,
+    #f2c5c2 100%
+  );
+  background: linear-gradient(to bottom, #f5d3d1 0%, #f3cac8 66%, #f2c5c2 100%);
+  border-bottom: 2px solid #444444;
+}
+table.estilo_patricio thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #4c443c;
+  text-align: center;
+  border-left: 2px solid #d0e4f5;
+}
+table.estilo_patricio thead th:first-child {
+  border-left: none;
+}
+
+table.estilo_patricio tfoot td {
+  font-size: 14px;
+}
+table.estilo_patricio tfoot .links {
+  text-align: right;
+}
+table.estilo_patricio tfoot .links a {
+  display: inline-block;
+  background: #1c6ea4;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+/* Estilo de elementos audiovisuales */
+img {
+  max-width: 400px;
+  /* max-height: 200px; */
+}

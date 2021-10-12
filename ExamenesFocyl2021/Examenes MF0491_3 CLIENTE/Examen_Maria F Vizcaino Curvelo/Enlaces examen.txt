@@ -1,0 +1,169 @@
+https://www.planetadelibros.com/usuaris/libros/fotos/255/m_libros/portada_origen_dan-brown_201706271532.jpg
+
+http://az837918.vo.msecnd.net/publishedimages/Listings/1061/es-MX/images/1/rocky-mountain-photo-adventures-L-16.jpg
+
+
+Video source: https://vod-progressive.akamaized.net/exp=1621411629~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F101%2F14%2F350507890%2F1418971835.mp4~hmac=e1502be76c731a54ca063fbb47895a8d8efed732befe1d81b9629d6746f99022/vimeo-prod-skyfire-std-us/01/101/14/350507890/1418971835.mp4?filename=Vosges+-+25477.mp4
+  	https://vod-progressive.akamaized.net/exp=1621411670~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4876%2F7%2F199383367%2F672434766.mp4~hmac=d64b3cf87fbda119314014351018a894a01d14e9163c1a396ecc79bc87bdd188/vimeo-prod-skyfire-std-us/01/4876/7/199383367/672434766.mp4?filename=Snowy+Trees+-+7328.mp4
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d33uJpMKieQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+------------------------------------------------------------------------------------------------------------------
+ES VERDAD
+¡Ay qué trabajo me cuesta
+quererte como te quiero!
+
+Por tu amor me duele el aire,
+el corazón
+y el sombrero.
+
+¿Quién me compraría a mí
+este cintillo que tengo
+y esta tristeza de hilo
+blanco, para hacer pañuelos?
+
+¡Ay qué trabajo me cuesta
+quererte como te quiero!
+
+Autor del poema: Federico García Lorca
+-----------------------------------------------------------------------------------------------------
+cita:
+Un poco más de persistencia, un poco más de esfuerzo, y lo que parecía irremediablemente un fracaso puede convertirse en un éxito glorioso (Elbert Hubbard)
+-------------------------------------------------------------------------------------------------------------
+Etiquetas meta:
+
+<meta name="description" content="Examen Web">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Alumno Brillante">
+---------------------------------------------------------------------------------------------------------------
+Direccion focyl:
+Dirección: Calle de las Campanillas, 26, 24008 León, España
+Teléfono: +34 987 87 64 34
+----------------------------------------------------------------------------------------------------------
+tabla:
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable thead {
+  background: #25705B;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
+<table class="blueTable">
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+
+---------------------------------------------------------------------------------------------------------------------

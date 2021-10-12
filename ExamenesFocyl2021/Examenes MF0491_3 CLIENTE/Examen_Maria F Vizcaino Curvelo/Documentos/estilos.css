@@ -1,0 +1,60 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-family: 1rem;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: rgb(2, 2, 22);
+}
+
+.claro {
+  background-color: rgb(250, 245, 245);
+}
+
+#footer {
+  padding: 12px;
+  margin: 14em;
+  border: 1px solid hsl(0, 0, 0);
+}
+ol li {
+  color: rgba(32, 4, 4, 0.4);
+  font-size: 2rem;
+}
+/* --------------------Ejercicio 5--------- */
+
+a:link {
+  color: darkblue;
+}
+a:visited {
+  color: #fb3640;
+}
+a:hover {
+  color: rgb(2, 192, 119);
+  text-decoration: none;
+}
+a:active {
+  color: hsl(29, 48%, 61%);
+}
+
+.ecyl a {
+  text-decoration: none;
+}
+
+/* -------------------------------Estilos Tabla---------------------- */
+
+thead {
+  background-color: #ec535a;
+  color: #fff;
+}
+
+table {
+  border: 1x solid #fb3640;
+}
+
+tr {
+  background-color: #c06c70;
+}
